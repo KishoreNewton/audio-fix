@@ -60,14 +60,6 @@ int start(){
 	cls();
 	setMonitorColor(0xa5);
 
-	char Welcome[] = "Welcome To OS0 : Copyright 2021\n";
-	char Welcome2[] = "Command Line Version 1.0.0.0\n\n";
-	char OSM[] = "OS0 > ";
-
-	printString(Welcome);
-	printString(Welcome2);
-	printColorString(OSM , 0xa8);
-
 	initIDT();
 }
 
